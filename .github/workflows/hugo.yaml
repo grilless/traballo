@@ -63,7 +63,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: vsftpd/public
+          path: .github/vsftpd/public
 
   # Deployment job
   deploy:
