@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.95.0
+      HUGO_VERSION: 0.111.3
     steps:
       - name: Install Hugo CLI
         run: |
@@ -63,7 +63,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: .github/vsftpd/public
 
   # Deployment job
   deploy:
