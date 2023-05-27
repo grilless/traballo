@@ -25,7 +25,3 @@ acceder al servidor ftp.
 sudo useradd -m nombre-usuario
 sudo passwd nombre-usuario
 ```
-
-```js
-
-```
