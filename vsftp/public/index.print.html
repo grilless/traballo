@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.95.0">
+    <meta name="generator" content="Relearn 5.12.6+tip">
+    <meta name="description" content="">
+    <title>UD5: Sistemas de ficheros web :: My New Hugo Site</title>
+    <link href="http://example.org/" rel="canonical" type="text/html" title="UD5: Sistemas de ficheros web :: My New Hugo Site">
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="UD5: Sistemas de ficheros web :: My New Hugo Site">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1685102807" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1685102807" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1685102807" rel="stylesheet">
+    <link href="/css/auto-complete.css?1685102807" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1685102807" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1685102807" rel="stylesheet">
+    <link href="/css/fonts.css?1685102807" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1685102807" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1685102807" rel="stylesheet">
+    <link href="/css/theme-auto.css?1685102807" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1685102807" rel="stylesheet">
+    <link href="/css/print.css?1685102807" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1685102807" rel="stylesheet">
+    <link href="/css/ie.css?1685102807" rel="stylesheet">
+    <script src="/js/url.js?1685102807"></script>
+    <script src="/js/variant.js?1685102807"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='http:\/\/example.org/';
+      window.variants && variants.init( [ 'auto', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'red' ] );
+    </script>
+  </head>
+  <body class="mobile-support print" data-url="/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">UD5: Sistemas de ficheros web</span><meta itemprop="position" content="1"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable home" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="home">
+<h1 id="ud5-sistemas-de-ficheros-web">UD5: Sistemas de ficheros web</h1>
+
+<p>No día de hoxe vamos a explicar o que o servicio <strong>FTP</strong></p>
+<h2 id="que-é-o-ftp">Que é o FTP?</h2>
+<p>O FTP é un protocolo de transferencia de archivos, actualmente é o modelo estándar.
+Sobre este protocolo fóronse facendo sucesivas actualizacións para mellorar a súa funcionalidade.
+Estas actualizacións reciben outro nomes pero sempre conservando o <strong>FTP</strong>
+
+		
+		
+<a href="#image-eff33f90fcf947164ea85828847a63a3" class="lightbox-link">
+<img src="https://dinahosting.com/blog/upload/2021/08/Protocolo-FTP.png?height=500px&amp;width=200vw" alt="FTP" style="height: 500px; width: 200vw;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-eff33f90fcf947164ea85828847a63a3">
+<img src="https://dinahosting.com/blog/upload/2021/08/Protocolo-FTP.png?height=500px&amp;width=200vw" alt="FTP" class="lightbox-image" loading="lazy">
+</a></p>
+<h2 id="actualizacions">Actualizacions</h2>
+<p>marcaraemos sobre que actaulizacion famos a tratar no dia de hoxe</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> vsFTPd</li>
+<li><input disabled="" type="checkbox"> SFTP</li>
+<li><input disabled="" type="checkbox"> TFTP</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+              <section>
+                <h1 class="a11y-only">Subsections of UD5: Sistemas de ficheros web</h1>
+          <article class="default">
+<h1 id="vsftpd">VsFTPD</h1>
+
+<p>
+<a href="#image-f2ff191072f58010bb53224bc6abfd46" class="lightbox-link">
+<img src="https://3.bp.blogspot.com/-yMYNdWqrMUg/UwtiETn0JUI/AAAAAAAABog/QfdKO2wx5GA/s1600/vsftpd.png" alt="pinguino" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-f2ff191072f58010bb53224bc6abfd46">
+<img src="https://3.bp.blogspot.com/-yMYNdWqrMUg/UwtiETn0JUI/AAAAAAAABog/QfdKO2wx5GA/s1600/vsftpd.png" alt="pinguino" class="lightbox-image" loading="lazy">
+</a>
+vsFTP ou (Very secure FTP) pode ser o servidor FTP máis seguro para o mundo Linux/Unix, en canto a seguridade, rendemento e escalabilidade.</p>
+<p>Soporta o uso de certificados dixitais SSL, sempre e cando o cliente FTP os soporte (empregar o cliente FTP-SSL en lugar de FTP). Unha das peculiaridades que permite, e o uso de gaiolas chroot para os usuarios.</p>
+<p>Unha gaiola chroot, establece un directorio determinado como directorio raíz. Desde ese directorio, non se poderá acceder a ningún de nivel superior, pero si a todos os descendentes.</p>
+<p>Podemos atopar a súa web oficial no seguinte enlace: <a href="https://security.appspot.com/vsftpd.html" target="_blank">https://security.appspot.com/vsftpd.html</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of VsFTPD</h1>
+          <article class="default">
+<h1 id="1-instalación">1. Instalación</h1>
+
+<p>Para instalalo, en Linux, temos que instalar o paquete vsftpd</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">sudo</span> <span style="color:#a6e22e">apt</span> <span style="color:#a6e22e">update</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">sudo</span> <span style="color:#a6e22e">apt</span> <span style="color:#a6e22e">install</span> <span style="color:#a6e22e">vsftpd</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>En la carpeta /etc encontramos la configuración del servidor ftp en el fichero
+/etc/vsftpd.conf voy a hacer una copia de seguridad para que no haya problemas
+en caso de error</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">sudo</span> <span style="color:#a6e22e">cp</span> <span style="color:#e6db74">/etc/</span><span style="color:#a6e22e">vsftpd</span>.<span style="color:#a6e22e">conf</span> <span style="color:#e6db74">/etc/</span><span style="color:#a6e22e">vsftpd</span>.<span style="color:#a6e22e">conf</span>.<span style="color:#a6e22e">bak</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>En este punto ya tenemos el servidor instalado y lo podemos arrancar como
+cualquier otro
+A continuación vamos a crear una cuenta de usuario para utilizar como cliente y
+acceder al servidor ftp.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">sudo</span> <span style="color:#a6e22e">useradd</span> -<span style="color:#a6e22e">m</span> <span style="color:#a6e22e">nombre</span>-<span style="color:#a6e22e">usuario</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">sudo</span> <span style="color:#a6e22e">passwd</span> <span style="color:#a6e22e">nombre</span>-<span style="color:#a6e22e">usuario</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"></code></pre></div>
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="2-configuración">2. Configuración</h1>
+
+<p>Lorem Ipsum.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+              </section>        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1685102807" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1685102807" defer></script>
+    <script src="/js/theme.js?1685102807" defer></script>
+  </body>
+</html>
