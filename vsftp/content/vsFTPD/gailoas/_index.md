@@ -1,6 +1,6 @@
 +++
 archetype = "<kind>"
-title = "Gailoas chroot"
+title = "3. Gailoas chroot"
 weight = 2
 +++
 

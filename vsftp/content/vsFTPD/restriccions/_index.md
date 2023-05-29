@@ -1,6 +1,6 @@
 +++
 archetype = "<kind>"
-title = "Restriccións"
+title = "6. Restriccións"
 weight = 2
 +++
 
