@@ -10,6 +10,7 @@
     <loc>http://example.org/vsftpd/configuracion/</loc>
   </url>
   <url>
+<<<<<<< HEAD
     <loc>http://example.org/vsftpd/gailoas/</loc>
   </url>
   <url>
@@ -25,6 +26,8 @@
     <loc>http://example.org/vsftpd/logs/</loc>
   </url>
   <url>
+=======
+>>>>>>> f12e4d709436b5ef164c7e8d1448d1d5db3ef4aa
     <loc>http://example.org/categories/</loc>
   </url>
   <url>

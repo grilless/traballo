@@ -12,14 +12,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/vsftpd/instalacion/</guid>
       <description>Para instalalo, en Linux, temos que instalar o paquete vsftpd
+<<<<<<< HEAD
 sudo apt update sudo apt install vsftpd En la carpeta /etc encontramos la configuración del servidor ftp en el fichero /etc/vsftpd.conf voy a hacer una copia de seguridad para que no haya problemas en caso de error
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.bak En este punto ya tenemos el servidor instalado y lo podemos arrancar como cualquier otro A continuación vamos a crear una cuenta de usuario para utilizar como cliente y acceder al servidor ftp.</description>
+=======
+sudo apt updatesudo apt install vsftpdEn la carpeta /etc encontramos la configuración del servidor ftp en el fichero /etc/vsftpd.conf voy a hacer una copia de seguridad para que no haya problemas en caso de error
+sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.bakEn este punto ya tenemos el servidor instalado y lo podemos arrancar como cualquier otro A continuación vamos a crear una cuenta de usuario para utilizar como cliente y acceder al servidor ftp.</description>
+>>>>>>> f12e4d709436b5ef164c7e8d1448d1d5db3ef4aa
     </item>
     <item>
       <title>2. Configuración</title>
       <link>http://example.org/vsftpd/configuracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/vsftpd/configuracion/</guid>
+<<<<<<< HEAD
       <description>Os ficheiros que temos que editar para configurar o servidor son /etc/vsftpd.conf ou /etc/vsftpd/vsftpd.conf.
 systemctl restart vsftpd Por defecto, poden acceder ao servidor FTP todos os usuarios do sistema, en modo só lectura.
 1.1. Mensaxe de benvida Podemos establecer unha mensaxe de benvida para os usuarios que se conectan ao sistema:
@@ -58,6 +64,8 @@ ftpd_banner=Benvido ao servidor FTP Ou especificando un ficheiro de texto, onde 
       <link>http://example.org/vsftpd/logs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/vsftpd/logs/</guid>
+=======
+>>>>>>> f12e4d709436b5ef164c7e8d1448d1d5db3ef4aa
       <description>Lorem Ipsum.</description>
     </item>
   </channel>
