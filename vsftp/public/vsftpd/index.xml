@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VsFTPD on My New Hugo Site</title>
+    <link>http://example.org/vsftpd/</link>
+    <description>Recent content in VsFTPD on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/vsftpd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Instalación</title>
+      <link>http://example.org/vsftpd/instalacion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vsftpd/instalacion/</guid>
+      <description>Para instalalo, en Linux, temos que instalar o paquete vsftpd
+sudo apt update sudo apt install vsftpd En la carpeta /etc encontramos la configuración del servidor ftp en el fichero /etc/vsftpd.conf voy a hacer una copia de seguridad para que no haya problemas en caso de error
+sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.bak En este punto ya tenemos el servidor instalado y lo podemos arrancar como cualquier otro A continuación vamos a crear una cuenta de usuario para utilizar como cliente y acceder al servidor ftp.</description>
+    </item>
+    <item>
+      <title>2. Configuración</title>
+      <link>http://example.org/vsftpd/configuracion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vsftpd/configuracion/</guid>
+      <description>Os ficheiros que temos que editar para configurar o servidor son /etc/vsftpd.conf ou /etc/vsftpd/vsftpd.conf.
+systemctl restart vsftpd Por defecto, poden acceder ao servidor FTP todos os usuarios do sistema, en modo só lectura.
+1.1. Mensaxe de benvida Podemos establecer unha mensaxe de benvida para os usuarios que se conectan ao sistema:
+ftpd_banner=Benvido ao servidor FTP Ou especificando un ficheiro de texto, onde se gardará a mensaxe a amosar como benvida (útil no caso de ocupar varias liñas):</description>
+    </item>
+    <item>
+      <title>3. Gailoas chroot</title>
+      <link>http://example.org/vsftpd/gailoas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vsftpd/gailoas/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>4. Acceso Anonimo</title>
+      <link>http://example.org/vsftpd/anonimo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vsftpd/anonimo/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>5.FTP Seguro</title>
+      <link>http://example.org/vsftpd/ftpseg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vsftpd/ftpseg/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>6. Restriccións</title>
+      <link>http://example.org/vsftpd/restriccions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vsftpd/restriccions/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>7. Logs</title>
+      <link>http://example.org/vsftpd/logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vsftpd/logs/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+  </channel>
+</rss>
